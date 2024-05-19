@@ -1,8 +1,8 @@
-#include <stdio.h>;
+#include <stdio.h>
 int main()
 {
  int r, s, c;
- #define PI 3.14;
+ float PI = 3.14;
  printf("Nhap ban kinh r: ");
  scanf("%d", &r);
  c = r * 2 * PI;

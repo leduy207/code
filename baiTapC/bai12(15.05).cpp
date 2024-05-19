@@ -14,7 +14,6 @@ int main()
         sum = sum + digit;
         num /= 10;
     }
-    printf("\nSo ban da nhap = %ld", temp);
     printf("\nTong cac chu so trong %ld = %ld", temp, sum);
     getch();
 }
