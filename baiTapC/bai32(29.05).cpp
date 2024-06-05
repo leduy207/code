@@ -3,9 +3,12 @@ int main(){
 	char ten;
 	float diem;
 	printf("Ho va ten hoc sinh: ");
-	scanf("%s", &ten);
+//	scanf("%s", &ten);
+	gets(&ten);
 	printf("Nhap vao diem so: ");
 	scanf("%f", &diem);
+	printf("\n");
+	printf("Diem so cua %s la: %f\n", &ten, diem);
 	if(diem > 0 && diem <10){
 	if (diem >= 9){
 	printf("Xep loai = Xuat sac\n");

@@ -24,7 +24,7 @@ int main(){
       }
    }
 
-   printf("\nPhan tu lon thu hai: %d \n", hai);   
+   printf("\nPhan tu lon thu hai la: %d \n", hai);   
 
    return 0;
 }
